@@ -81,3 +81,7 @@ nav.nav-list ul {
     margin: 16px 12px 0px 12px;
     border-radius: 3px;
 }
+
+.grid-container {
+    display: grid;
+}
