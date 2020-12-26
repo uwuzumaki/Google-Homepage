@@ -2,15 +2,6 @@ body {
     background-color: #ffffff;
 }
 
-#image-div {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: auto;
-    max-width: 100%;
-    margin-top: auto;
-}
-
 #main-image {
     margin-left: auto;
     margin-right: auto;
@@ -50,12 +41,17 @@ body {
 }
 
 #french-text {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 100;
     text-align: center;
 }
 
 .nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.nav-list ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -65,18 +61,15 @@ body {
 }
 
 .list-elements-left {
-    float: left;
-    padding: 16px 6px 0px 16px;
+    display: inline-block;
+    margin: 16px 0px 0px 16px;
 }
 
 .list-elements-right {
-    float: right;
-    padding: 26px 6px 0px 16px;
-}
-
-#apps-image {
-    padding: 0px;
-    margin: 0px;
+    display: inline-block;
+    margin: 0px 16px 0px 0px;
+    padding-top: 0px;
+    align-items: center;
 }
 
 #sign-in {
