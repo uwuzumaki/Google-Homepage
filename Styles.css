@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #ffffff;
 }
@@ -84,4 +89,49 @@ nav.nav-list ul {
 
 .grid-container {
     display: grid;
+    width: 100%;
+    font-size: 15px;
+    font-weight: normal;
+    position: absolute;
+    bottom: 0;
+    background: #f2f2f2;
+    grid-template-rows: 40px 40px;
+    grid-template-columns: 75px 75px 75px auto 75px 75px 75px;
+}
+
+.top-button {
+    background: violet;
+    padding: 10px 0px 0px 10px;
+}
+
+.bottom-button1 {
+    background: red;
+    grid-column: 1/2;
+    padding: 10px 0px 0px 10px;
+}
+
+.bottom-button2 {
+    background: orange;
+    padding: 10px 0px 0px 10px;
+}
+
+.bottom-button3 {
+    background: yellow;
+    padding: 10px 0px 0px 10px;
+}
+
+.bottom-button4 {
+    background: green;
+    grid-column: 5/6;
+    padding: 10px 0px 0px 10px;
+}
+
+.bottom-button5 {
+    background: blue;
+    padding: 10px 0px 0px 10px;
+}
+
+.bottom-button6 {
+    background: indigo;
+    padding: 10px 0px 0px 10px;
 }
